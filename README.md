@@ -96,7 +96,7 @@ This project is driven by the profound impact this song has had on my life, prov
 ## Set up
 
 **Running the Project**
-1. **Go to the branches** - [master](master)
+1. **Go to the branches** - [master](https://github.com/Suuuuvi/You-Side/tree/master)
    
 3. **Open the file** - [tunepad_project_86233.json](tunepad_project_86233.json)
    
