@@ -60,7 +60,7 @@ This project is driven by the profound impact this song has had on my life, prov
     sustainedNotes('56', beats= 0.5)
     ```
 
-- `playNote`: The function allows you to play individual notes. For example, to play the note G3:
+- `playNote`: The function allows to play individual notes. For example, to play the note G3:
 
     ```python
     from tunepad import playNote
@@ -69,7 +69,7 @@ This project is driven by the profound impact this song has had on my life, prov
     playNote(67, beats = 0.5) # note should be play for a duration of 0.5 beats.
     ```
 
-- `rest`: The function introduces pauses in your music. For instance, you can use it to pause for 0.25 second:
+- `rest`: The function introduces pauses in music. For instance, use it to pause for 0.25 second:
 
     ```python
     from tunepad import rest
