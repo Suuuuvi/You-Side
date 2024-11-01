@@ -1,6 +1,7 @@
 # You-Side
 
-The project seeks to reinterpret the Chinese pop ballad 'You Will Be By My Side' through coding. I will create a piece that resonates with the essence of the original song, expressing my personal emotions by Python programming language - saying goodbye to the past while looking forward to the future. For me, the song represents hope and serves as an inspiration to maintain faith in life. Through this work, I aim to convey my feeling and experiences in a musical format, sharing a message of positivity.
+
+The project seeks to reinterpret the Chinese pop ballad 'You Will Be By My Side' through coding. This project was created as part of my university final assignment, aimed at enhacing my programming skills and understanding of sotware development. The primary goal is to apply the concepts learned throughout the course to build a musicial composition that demonstrates my ability to code.
 
 # Table of Content
 - [General Information](#general-information)
