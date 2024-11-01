@@ -95,3 +95,12 @@ This project is driven by the profound impact this song has had on my life, prov
     playNote(66, beats=0.5)
     rest(0.25) # rest for 0.25 seconds between notes
     ```
+# Project Status
+The project has been completed.
+
+# Room for Improvement
+- **Areas for Improvement**:
+    - Lack of the sound quality by incorporating a better audio library to support highter fidelity playback.
+
+ # Acknowledgements
+ - This project was inspired by a song 'One day you will be by my side'
