@@ -5,7 +5,7 @@ The project seeks to reinterpret the Chinese pop ballad 'One Day You Will Be By 
 # Table of Content
 - [Introduction](#introduction)
 - [Features](#features)
-- [Coding Environment](#coding)
+- [Technologies Used](#technologies)
 - 
 
 # Introduction
@@ -29,7 +29,11 @@ This project is driven by the profound impact this song has had on my life, prov
 - **Melodic Variation**: Melodic variations are introduced, using chords to enrich the harmonic texture.
 - **Cyclic Structure**: A cyclic structure repeats certain melodic segments for cohesion.
 
-# Coding
+# Technologies
 
 - **Programming Language**: Python
-- **Development Environment**: TunePad
+- **Development Tool**: TunePad
+- **Version Control**： GitHub
+
+# Screenshot
+
