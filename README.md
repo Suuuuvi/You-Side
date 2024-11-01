@@ -116,7 +116,7 @@ To run the project, follow these steps:
 2. **Navigate to the Project Directory**: If your project is located in a subdirectory (e.g., `lorem`), navigate to that directory:
 
     ```bash
-    cd ../lorem
+    cd ../path/to/your/tunepad-project
     ```
 
 3. **Install Dependencies**: Use npm to install the necessary libraries:
