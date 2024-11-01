@@ -101,11 +101,9 @@ The project has been completed.
  - Many thanks to the contributor of the [TunePad Song Tutorials](https://learn.tunepad.com/tutorials/) for the support, which greatly enhanced the development of this project.
  - Special appreciation to the TunePad for providing tools and teaching tutorial that made this project possible.
 
-## Launch
+## Set up
 
 **Running the Project**
-
-To run the project, follow these steps:
 
 1. **Clone the Repository**: Begin by cloning the repository to your local machine:
 
@@ -113,13 +111,13 @@ To run the project, follow these steps:
     git clone https://github.com/Suuuuvi/You-Side.git
     ```
 
-2. **Navigate to the Project Directory**: If your project is located in a subdirectory (e.g., `lorem`), navigate to that directory:
+2. **Navigate to the Project Directory**:
 
     ```bash
     cd ../Documents/tunepad-YOURSIDE.mp3
     ```
 
-3. **Install Dependencies**: Use npm to install the necessary libraries:
+3. **Install Dependencies**:
 
     ```bash
     git init
@@ -128,10 +126,10 @@ To run the project, follow these steps:
 4. **Start the Application**: Start the application with the following command:
 
     ```bash
-    git add .
+    git add *
     ```
 
-5. **Access the Application**: Open your web browser and navigate to `http://localhost:3000` (or the specified port) to access the application.
+5. **Access the Application**: Open your web browser and navigate to `` (or the specified port) to access the application.
     ```bash
     git commit -m "Initial commit"
     ```
@@ -141,7 +139,7 @@ To run the project, follow these steps:
    git push -u origin master
    
 **Minimum Hardware Requirements**
-  
+  tunepad_project_86233.json
 
 To run this project smoothly, the following minimum hardware requirements are recommended:
 - **CPU**: Dual-core processor or higher
