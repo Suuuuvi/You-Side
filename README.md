@@ -6,6 +6,7 @@ The project seeks to reinterpret the Chinese pop ballad 'One Day You Will Be By 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies)
+- [Screenshot](#screenshot)
 - 
 
 # Introduction
@@ -38,3 +39,67 @@ This project is driven by the profound impact this song has had on my life, prov
 # Screenshot
 ![Screenshot Description](IMG_1640.jpeg)
 
+# Usage
+
+- `playChord`: The function is defined to play chords at appropriate positions. For example, to play F and G major chord, can use:
+
+    ```python
+    from tunepad import playChord
+
+    # Play a F and G major chord
+        playChord(['65', '69', '72'], beats = 0.5)
+        playChord(['67', '71', '74'], beats = 0.5)
+    ```
+
+- `sustainedNotes`: The function adds sustained notes, enhancing the melody's dynamics. Here’s an example of playing a G2 note for 0.5 seconds:
+
+    ```python
+    from tunepad import sustainedNotes
+
+    # Play the note G2 for 0.5 seconds
+    sustainedNotes('56', beats= 0.5)
+    ```
+
+- `playNotes`: Melodic variations are introduced, using chords to enrich the harmonic texture. For example, you can create a progression of chords:
+
+    ```python
+    from tunepad import playChord
+
+    # Play a progression of chords
+    chords = [['C', 'E', 'G'], ['D', 'F#', 'A'], ['E', 'G#', 'B']]
+    for chord in chords:
+        playChord(chord)
+        rest(1)  # Rest for 1 second between chords
+    ```
+
+- **Cyclic Structure**: A cyclic structure repeats certain melodic segments for cohesion. Here’s an example of using a loop to repeat a melody:
+
+    ```python
+    from tunepad import playNote, rest
+
+    # Play a cyclic melody
+    melody = ['C', 'D', 'E', 'D']
+    for _ in range(3):  # Repeat the melody 3 times
+        for note in melody:
+            playNote(note)
+            rest(0.5)  # Rest for half a second between notes
+    ```
+
+- `playNote`: The function allows you to play individual notes. For example, to play the note G3:
+
+    ```python
+    from tunepad import playNote
+
+    # Play the note G3
+    playNote('67', beats = 0.5)
+    ```
+
+- `rest`: The function introduces pauses in your music. For instance, you can use it to pause for 0.25 second:
+
+    ```python
+    from tunepad import rest
+
+    # Rest for 0.25 second
+    rest(0.25)
+    ```
+    
