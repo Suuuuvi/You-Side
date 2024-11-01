@@ -78,7 +78,10 @@ This project is driven by the profound impact this song has had on my life, prov
     rest(0.25)
     ```
 - 'for _ in range': A cyclic structure repeats certain melodic segments for cohesion. Here’s an example of using a loop to repeat a melody:
-    for _ in range(1): # Repeat the melody 1 times
+    ```python
+    from TunePad import for _ in range
+    
+    # for _ in range(1): # Repeat the melody 1 times
     playNote(64, beats=0.5)
     playNote(62, beats=0.5)
     playNote(67, beats=0.5)
@@ -90,4 +93,5 @@ This project is driven by the profound impact this song has had on my life, prov
     playNote(64, beats=1)
     playNote(66, beats=0.25)
     playNote(66, beats=0.5)
-    rest(0.25) rest for 0.25 seconds between notes
+    rest(0.25) # rest for 0.25 seconds between notes
+    ```
