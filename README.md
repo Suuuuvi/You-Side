@@ -110,8 +110,7 @@ To run the project, follow these steps:
 1. **Clone the Repository**: Begin by cloning the repository to your local machine:
 
     ```bash
-    git clone [https://github.com/username/repository-name.git
-    cd repository-name](https://github.com/Suuuuvi/You-Side.git)
+    git clone https://github.com/Suuuuvi/You-Side.git
     ```
 
 2. **Navigate to the Project Directory**: If your project is located in a subdirectory (e.g., `lorem`), navigate to that directory:
