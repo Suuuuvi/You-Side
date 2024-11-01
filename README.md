@@ -36,4 +36,5 @@ This project is driven by the profound impact this song has had on my life, prov
 - **Version Control**： GitHub
 
 # Screenshot
-![Screenshot Description](screenshots/screenshot1.png)
+![Screenshot Description](IMG_1640.jpeg)
+
