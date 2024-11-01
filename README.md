@@ -7,7 +7,7 @@ The project seeks to reinterpret the Chinese pop ballad 'One Day You Will Be By 
 - [Features](#features)
 - [Technologies Used](#technologies)
 - [Screenshot](#screenshot)
-- 
+- [Usage](#usage)
 
 # Introduction
 
