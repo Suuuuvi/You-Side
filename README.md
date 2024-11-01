@@ -8,7 +8,10 @@ The project seeks to reinterpret the Chinese pop ballad 'You Will Be By My Side'
 - [Technologies Used](#technologies)
 - [Screenshot](#screenshot)
 - [Usage](#usage)
-
+- [Project Status](#project-status)
+- [Room for Improvement](#Room-for-Improvement)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 # Introduction
 
 - **Problem Solved**
@@ -25,7 +28,7 @@ This project is driven by the profound impact this song has had on my life, prov
 
 # Technologies
 
-- **Programming Language**: Python
+- **Programming Language**: Python 3
 - **Development Tool**: TunePad
 - **Version Control**： GitHub
 
@@ -88,6 +91,34 @@ This project is driven by the profound impact this song has had on my life, prov
     playNote(66, beats=0.5)
     rest(0.25) # rest for 0.25 seconds between notes
     ```
+## Set up
+
+**Running the Project**
+1. **Go to the branches** - [master](master)
+   
+3. **Open the file** - [tunepad_project_86233.json](tunepad_project_86233.json)
+   
+4. **Download the raw file and save it in your laptop、 computer or iPad**
+   
+5. **Access TunePad Website** - [TunePad](https://tunepad.com/)
+   
+7. **Please log in first, then go to MyTunes to import the raw file**
+
+8. **You done it, you can listen it freely**
+   
+**No Minimum Hardware Requirements**
+
+**Easy to Access**
+
+**Input Data**
+
+If the project requires input data, please ensure the data is in the following format:
+- **CSV**: Comma-separated values for datasets.
+- **JSON**: For structured data inputs.
+- **MIDI**: For music-related data, if applicable.
+
+By following these steps, you should be able to successfully launch and run the project.
+
 # Project Status
 The project has been completed.
 
@@ -101,62 +132,12 @@ The project has been completed.
  - Many thanks to the contributor of the [TunePad Song Tutorials](https://learn.tunepad.com/tutorials/) for the support, which greatly enhanced the development of this project.
  - Special appreciation to the TunePad for providing tools and teaching tutorial that made this project possible.
 
-## Set up
+# Contact
 
-**Running the Project**
+If you have any questions, suggestions, or feedback regarding this project, please feel free to reach out to me:
+- **Email**: Junjie.su-1@student.uts.edu.au
+- **GitHub**: You can submit issues or pull requests on my [GitHub project page](https://github.com/Suuuuvi/You-Side.git)
+- **Social Media**: Follow me on my social media channels for updates.
+- Instagram: [@cokiesuuuuvi](https://www.instagram.com/cokiesuuuuvi/profilecard/?igsh=OTloOXdvYThpbDhu)
 
-1. **Clone the Repository**: Begin by cloning the repository to your local machine:
-
-    ```bash
-    git clone https://github.com/Suuuuvi/You-Side.git
-    ```
-
-2. **Navigate to the Project Directory**:
-
-    ```bash
-    cd ../Documents/tunepad-YOURSIDE.mp3
-    ```
-
-3. **Install Dependencies**:
-
-    ```bash
-    git init
-    ```
-
-4. **Start the Application**: Start the application with the following command:
-
-    ```bash
-    git add *
-    ```
-
-5. **Access the Application**: Open your web browser and navigate to `` (or the specified port) to access the application.
-    ```bash
-    git commit -m "Initial commit"
-    ```
-
-6. gerdg
-   git remote add origin [project](tunepad-YOURSIDE.mp3)
-   git push -u origin master
-   
-**Minimum Hardware Requirements**
-  tunepad_project_86233.json
-
-To run this project smoothly, the following minimum hardware requirements are recommended:
-- **CPU**: Dual-core processor or higher
-- **RAM**: At least 4 GB
-- **Storage**: Minimum of 100 MB of available disk space
-
-**Input Data**
-
-If the project requires input data, please ensure the data is in the following format:
-- **CSV**: Comma-separated values for datasets.
-- **JSON**: For structured data inputs.
-- **MIDI**: For music-related data, if applicable.
-
-**Deployment**
-
-If applicable, the project can also be deployed on platforms such as [Heroku](https://www.heroku.com) or GitHub Pages. For detailed instructions on deployment, refer to the respective documentation.
-
-For live access to the deployed application, visit [Deployed Application Link](https://your-app.herokuapp.com) (replace with the actual link).
-
-By following these steps, you should be able to successfully launch and run the project.
+Welocome all feedback and suggestions and thank you for your listen for this project.
