@@ -3,16 +3,17 @@
 The project seeks to reinterpret the Chinese pop ballad 'You Will Be By My Side' through coding. I will create a piece that resonates with the essence of the original song, expressing my personal emotions by Python programming language - saying goodbye to the past while looking forward to the future. For me, the song represents hope and serves as an inspiration to maintain faith in life. Through this work, I aim to convey my feeling and experiences in a musical format, sharing a message of positivity.
 
 # Table of Content
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies)
+- [General Information](#general-information)
+- [Technologies Used](#technologies-used)
 - [Screenshot](#screenshot)
 - [Usage](#usage)
+- [Launch](#launch)
 - [Project Status](#project-status)
 - [Room for Improvement](#Room-for-Improvement)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
-# Introduction
+
+# General Information
 
 - **Problem Solved**
 
@@ -26,7 +27,7 @@ The main goal is to use Python to create a musical piece that resonates with the
 
 This project is driven by the profound impact this song has had on my life, providing me with hope and courage during difficult times. By transforming these feelings into code and music, I hope to share this power and inspiration with others, allowing them to feel the same uplifting emotions when they listen to it
 
-# Technologies
+# Technologies Used
 
 - **Programming Language**: Python 3
 - **Development Tool**: TunePad
@@ -138,6 +139,6 @@ If you have any questions, suggestions, or feedback regarding this project, plea
 - **Email**: Junjie.su-1@student.uts.edu.au
 - **GitHub**: You can submit issues or pull requests on my [GitHub project page](https://github.com/Suuuuvi/You-Side.git)
 - **Social Media**: Follow me on my social media channels for updates.
-- Instagram: [@cokiesuuuuvi](https://www.instagram.com/cokiesuuuuvi/profilecard/?igsh=OTloOXdvYThpbDhu)
+  - Instagram: [@cokiesuuuuvi](https://www.instagram.com/cokiesuuuuvi/profilecard/?igsh=OTloOXdvYThpbDhu)
 
 Welocome all feedback and suggestions and thank you for your listen for this project.
