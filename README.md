@@ -77,7 +77,7 @@ This project is driven by the profound impact this song has had on my life, prov
     # Rest for 0.25 second
     rest(0.25)
     ```
-- 'for _ in range': A cyclic structure repeats certain melodic segments for cohesion. Here’s an example of using a loop to repeat a melody:
+- `for _ in range`: A cyclic structure repeats certain melodic segments for cohesion. Here’s an example of using a loop to repeat a melody:
     ```python
     from TunePad import for _ in range
     
