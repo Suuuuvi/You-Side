@@ -116,24 +116,32 @@ To run the project, follow these steps:
 2. **Navigate to the Project Directory**: If your project is located in a subdirectory (e.g., `lorem`), navigate to that directory:
 
     ```bash
-    cd ../path/to/your/tunepad-project
+    cd ../Documents/tunepad-YOURSIDE.mp3
     ```
 
 3. **Install Dependencies**: Use npm to install the necessary libraries:
 
     ```bash
-    npm install
+    git init
     ```
 
 4. **Start the Application**: Start the application with the following command:
 
     ```bash
-    npm start
+    git add .
     ```
 
 5. **Access the Application**: Open your web browser and navigate to `http://localhost:3000` (or the specified port) to access the application.
+    ```bash
+    git commit -m "Initial commit"
+    ```
 
+6. gerdg
+   git remote add origin [project](tunepad-YOURSIDE.mp3)
+   git push -u origin master
+   
 **Minimum Hardware Requirements**
+  
 
 To run this project smoothly, the following minimum hardware requirements are recommended:
 - **CPU**: Dual-core processor or higher
