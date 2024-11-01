@@ -100,3 +100,58 @@ The project has been completed.
  - This project was based on [Quick Start Guide](https://tunepad.com/project/67954), 
  - Many thanks to the contributor of the [TunePad Song Tutorials](https://learn.tunepad.com/tutorials/) for the support, which greatly enhanced the development of this project.
  - Special appreciation to the TunePad for providing tools and teaching tutorial that made this project possible.
+
+## Launch
+
+**Running the Project**
+
+To run the project, follow these steps:
+
+1. **Clone the Repository**: Begin by cloning the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/username/repository-name.git
+    cd repository-name
+    ```
+
+2. **Navigate to the Project Directory**: If your project is located in a subdirectory (e.g., `lorem`), navigate to that directory:
+
+    ```bash
+    cd ../lorem
+    ```
+
+3. **Install Dependencies**: Use npm to install the necessary libraries:
+
+    ```bash
+    npm install
+    ```
+
+4. **Start the Application**: Start the application with the following command:
+
+    ```bash
+    npm start
+    ```
+
+5. **Access the Application**: Open your web browser and navigate to `http://localhost:3000` (or the specified port) to access the application.
+
+**Minimum Hardware Requirements**
+
+To run this project smoothly, the following minimum hardware requirements are recommended:
+- **CPU**: Dual-core processor or higher
+- **RAM**: At least 4 GB
+- **Storage**: Minimum of 100 MB of available disk space
+
+**Input Data**
+
+If the project requires input data, please ensure the data is in the following format:
+- **CSV**: Comma-separated values for datasets.
+- **JSON**: For structured data inputs.
+- **MIDI**: For music-related data, if applicable.
+
+**Deployment**
+
+If applicable, the project can also be deployed on platforms such as [Heroku](https://www.heroku.com) or GitHub Pages. For detailed instructions on deployment, refer to the respective documentation.
+
+For live access to the deployed application, visit [Deployed Application Link](https://your-app.herokuapp.com) (replace with the actual link).
+
+By following these steps, you should be able to successfully launch and run the project.
