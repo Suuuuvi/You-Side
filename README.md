@@ -48,7 +48,7 @@ This project is driven by the profound impact this song has had on my life, prov
 
     # Play a F and G major chord
         playChord(['65', '69', '72'], beats = 0.5)
-        playChord(['67', '71', '74'], beats = 0.5)
+        playChord(['67', '71', '74'], beats = 0.5) # Melodic variations are introduced, using chords to enrich the musicial texture.
     ```
 
 - `sustainedNotes`: The function adds sustained notes, enhancing the melody's dynamics. Here’s an example of playing a G2 note for 0.5 seconds:
@@ -60,38 +60,13 @@ This project is driven by the profound impact this song has had on my life, prov
     sustainedNotes('56', beats= 0.5)
     ```
 
-- `playNotes`: Melodic variations are introduced, using chords to enrich the harmonic texture. For example, you can create a progression of chords:
-
-    ```python
-    from tunepad import playChord
-
-    # Play a progression of chords
-    chords = [['C', 'E', 'G'], ['D', 'F#', 'A'], ['E', 'G#', 'B']]
-    for chord in chords:
-        playChord(chord)
-        rest(1)  # Rest for 1 second between chords
-    ```
-
-- **Cyclic Structure**: A cyclic structure repeats certain melodic segments for cohesion. Here’s an example of using a loop to repeat a melody:
-
-    ```python
-    from tunepad import playNote, rest
-
-    # Play a cyclic melody
-    melody = ['C', 'D', 'E', 'D']
-    for _ in range(3):  # Repeat the melody 3 times
-        for note in melody:
-            playNote(note)
-            rest(0.5)  # Rest for half a second between notes
-    ```
-
 - `playNote`: The function allows you to play individual notes. For example, to play the note G3:
 
     ```python
     from tunepad import playNote
 
     # Play the note G3
-    playNote('67', beats = 0.5)
+    playNote(67, beats = 0.5) # note should be play for a duration of 0.5 beats.
     ```
 
 - `rest`: The function introduces pauses in your music. For instance, you can use it to pause for 0.25 second:
@@ -102,4 +77,17 @@ This project is driven by the profound impact this song has had on my life, prov
     # Rest for 0.25 second
     rest(0.25)
     ```
-    
+- 'for _ in range': A cyclic structure repeats certain melodic segments for cohesion. Here’s an example of using a loop to repeat a melody:
+    for _ in range(1): # Repeat the melody 1 times
+    playNote(64, beats=0.5)
+    playNote(62, beats=0.5)
+    playNote(67, beats=0.5)
+    playNote(60, beats=0.5)
+    playNote(67, beats=0.5)
+    playNote(60, beats=0.5)
+    playNote(68, beats=2)
+    playNote(67, beats=1)
+    playNote(64, beats=1)
+    playNote(66, beats=0.25)
+    playNote(66, beats=0.5)
+    rest(0.25) rest for 0.25 seconds between notes
